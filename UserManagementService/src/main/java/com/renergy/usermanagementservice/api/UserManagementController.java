@@ -15,7 +15,7 @@ public class UserManagementController {
 
     @RequestMapping(method = RequestMethod.POST, value="/create-user")
     public @ResponseBody
-    DefaultResponse addNewProduct(@RequestBody User user) {
+    DefaultResponse addNewUser(@RequestBody User user) {
         return userManagementService.createNewUser(user);
     }
 

@@ -29,8 +29,6 @@ public class User {
     @NonNull
     private String lastName;
 
-    private String address;
-
     private String contactNumber;
 
 }
