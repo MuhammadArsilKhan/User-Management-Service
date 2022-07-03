@@ -4,6 +4,7 @@ import lombok.*;
 
 @NoArgsConstructor
 @RequiredArgsConstructor
+@AllArgsConstructor
 @Getter
 @Setter
 public class DefaultResponse {
@@ -13,5 +14,5 @@ public class DefaultResponse {
     @NonNull
     private String message;
 
-    private Long createdId;
+    private String createdId;
 }
